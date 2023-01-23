@@ -1,0 +1,51 @@
+
+
+
+.footer.footer{
+    top: 680px;
+    height: 100%;
+    background-color: #c89b60;
+    position: relative;
+}
+
+.contato{
+    margin-left: 100px;
+}
+
+.footer.footer .container {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+
+.footer.footer .container > div{
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 3rem 0.9rem;
+}
+
+.footer h2{
+    color: black;
+}
+
+.footer p{
+    font-size: 15px;
+}
+
+.rede-sociais{
+  align-items: center;
+}
+
+.rede-sociais .fa-facebook-f{
+    height: 0px;
+    width: 17px;
+    font-size: 20px;
+    line-height: 40px;
+    margin: 0px 2px 0;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.rede-sociais .fa-facebook-f:hover{
+    transform: translateY(9px);
+}
+
